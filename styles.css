@@ -1,2 +1,64 @@
 body { 
-    background-color: powderblue
+    background-color: powderblue;
+}
+
+
+#main-nav 
+ ul li { 
+        display: inline-block;
+ }
+
+ section {
+padding: 1em 2em;
+ }
+
+.img-container img {
+    width: 38%
+    margin: 5%;
+}
+
+.behavior-box {
+    display: inline-block;
+    width: 32%;
+    margin: 5%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    font-size: 2em;
+    border-radius: 3px;
+    border: solid 2px goldenrod;
+    box-shadow: 0 0 3px black;
+
+}
+
+/* Gallery page */
+
+.gallery-container img {
+    width: 420px;
+    height: 300px;
+    margin-right: 0%;
+    margin-left: 0%;
+
+
+
+ 
+ }
+/* Mobile view. */
+
+ @media screen and (max-width: 576px) {
+     .behavior-box {
+         width: 100%;
+
+         .gallery-container img {
+             width: 100%;
+             margin-right: 0;
+             margin-left: 0;
+         }
+     }
+/* Tablet view. */
+
+@media screen and (min-width: 577px) and (max-width: 768px)
+
+ }
